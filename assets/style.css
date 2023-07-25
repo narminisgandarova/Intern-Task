@@ -1,0 +1,388 @@
+.main {
+  background: url("https://cdn.discordapp.com/attachments/1064953230091624448/1132315196812181564/2d6bdac02a35769e4db4ef9df4ea60a1.jpg"), lightgray -4.967px -135.255px/106.206% 268.483% no-repeat;
+  width: 100%;
+  height: 70vh;
+  flex-shrink: 0;
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+.main .mybox i {
+  border: 1px solid;
+  border-color: #0CF9EF #0CF9EF #D686FF #D686FF;
+  padding: 10px;
+  border-radius: 50%;
+}
+.main .bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 20vh;
+  background: linear-gradient(0deg, #1F1F1F 0%, rgba(34, 34, 34, 0.37) 63.02%, rgba(34, 34, 34, 0) 100%);
+}
+.main .right h1 {
+  color: #FFF;
+  font-family: Gilroy-Bold;
+  font-size: 25.2px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 30.24px */
+}
+.main .right .buttons {
+  display: flex;
+  width: 252px;
+  padding: 14.623px 31px 11.425px 187px;
+  margin-left: 12px;
+  margin-bottom: 12px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.16);
+  transform: translateY(-12px);
+  border: 1px solid;
+  border-color: #0CF9EF #0CF9EF #D686FF #D686FF;
+}
+.main .right .buttons .mybtn, .main .right .buttons .dropdown {
+  color: #FFF;
+  text-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.25);
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 16.8px */
+  border: none;
+  background-color: transparent;
+}
+.main .right .buttons .mybtn .dropdown-menu, .main .right .buttons .dropdown .dropdown-menu {
+  border-radius: 6.977px;
+  background: rgba(255, 255, 255, 0.16);
+  border: none;
+  border: 1px solid;
+  border-color: #0CF9EF #0CF9EF #D686FF #D686FF;
+}
+.main .right .buttons .mybtn .dropdown-menu .dropdown-item, .main .right .buttons .dropdown .dropdown-menu .dropdown-item {
+  color: #FFF;
+}
+.main .right .buttons .mybtn .dropdown-menu .dropdown-item:hover, .main .right .buttons .dropdown .dropdown-menu .dropdown-item:hover {
+  background: rgba(255, 255, 255, 0.16);
+  color: #FFF;
+  text-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.25);
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 16.8px */
+}
+.main .left {
+  display: flex;
+}
+.main .left .mybtn1 {
+  display: flex;
+  width: 137px;
+  height: 43px;
+  padding: 0px 25px 0px 102px;
+  justify-content: flex-end;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: radial-gradient(107.32% 141.42% at 0% 0%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: -2.4184262753px -2.4184262753px 120.9213180542px 0px rgba(255, 255, 255, 0.02) inset;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border: none;
+  color: #FFF;
+  text-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.25);
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 16.8px */
+  border: 1px solid;
+  border-color: #0CF9EF #0CF9EF #D686FF #D686FF;
+}
+.main .left .mybtn2 {
+  width: 99px;
+  height: 43px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.16);
+  border: none;
+  color: #FFF;
+  text-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.25);
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 16.8px */
+  border: 1px solid;
+  border-color: #0CF9EF #0CF9EF #D686FF #D686FF;
+}
+.main .dropdown-menu {
+  width: 600px;
+  border: 1px solid;
+  border-color: #0CF9EF #0CF9EF #D686FF #D686FF;
+  width: 100%;
+  height: 20vh;
+  overflow-y: auto;
+  /* Remove the default styling of the scrollbar */
+  /* Style the scrollbar thumb */
+}
+.main .dropdown-menu::-webkit-scrollbar {
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: -1.7471857071px -1.7471857071px 104.8311462402px 0px rgba(0, 0, 0, 0);
+  -webkit-backdrop-filter: blur(17.4718570709px);
+          backdrop-filter: blur(17.4718570709px);
+  width: 3.494px;
+  height: 179px;
+  padding-right: 12px;
+}
+.main .dropdown-menu ::-webkit-scrollbar-thumb {
+  -webkit-appearance: none;
+  background-color: #c1c1c1;
+  border-radius: 10px;
+}
+.main .dropdown-menu ::-webkit-scrollbar-thumb:hover {
+  background-color: #a1a1a1;
+}
+.main .dropdown-menu .dropdown-item {
+  width: 100%;
+  color: #FFF;
+  background: rgba(255, 255, 255, 0.16);
+  text-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.25);
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+.main .dropdown-menu .dropdown-item ul {
+  width: 100%;
+}
+.main .dropdown-menu .dropdown-item ul li {
+  width: 207px;
+  height: 41px;
+  flex-shrink: 0;
+}
+.main .dropdown-menu .dropdown-item:hover {
+  background: rgba(255, 255, 255, 0.16);
+  color: #FFF;
+  text-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.25);
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 16.8px */
+}
+
+.second {
+  background: #1F1F1F;
+}
+.second .box {
+  width: 76px;
+  height: 73px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background-color: #1F1F1F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second .box .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+.second .box {
+  width: 76px;
+  height: 73px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background-color: #1F1F1F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second .box .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+.second .card {
+  background-color: #1F1F1F;
+  border-radius: 8px;
+  border: none;
+  transition: 0.3s all ease;
+}
+.second .card .card-body {
+  display: block;
+  background: #1F1F1F;
+  color: #FFF;
+  font-family: Gilroy-Bold;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 16.8px */
+}
+.second .card .card-body2 {
+  display: none;
+}
+.second .card:hover {
+  transform: scaleY(1.1);
+  cursor: pointer;
+}
+.second .card:hover .card-body {
+  display: none;
+}
+.second .card:hover .card-body2 {
+  height: 150px;
+  display: block;
+  border-radius: 6.583px;
+  -webkit-backdrop-filter: blur(7.5px) !important;
+          backdrop-filter: blur(7.5px) !important;
+  background: radial-gradient(107.32% 141.42% at 0% 0%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: -2.244035244px -2.244035244px 112.2017822266px 0px rgba(255, 255, 255, 0.02) inset;
+  border-radius: 0%;
+}
+.second .card:hover .card-body2 .box {
+  border-radius: 34.105px;
+  background: radial-gradient(107.32% 141.42% at 0% 0%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: -2.0620260239px -2.0620260239px 103.1013031006px 0px rgba(255, 255, 255, 0.02) inset;
+  -webkit-backdrop-filter: blur(4.2631568909px);
+          backdrop-filter: blur(4.2631568909px);
+  width: 34.105px;
+  height: 34.105px;
+  padding: 5.968px;
+  font-family: Gilroy-Bold;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 19.2px */
+}
+.second .card:hover .card-body2 .box:hover {
+  border-radius: 42px;
+  background: radial-gradient(107.32% 141.42% at 0% 0%, #0CF9F0 0%, #D686FF 100%);
+  box-shadow: -2.5393476486px -2.5393476486px 126.9673843384px 0px rgba(255, 255, 255, 0.02) inset;
+  -webkit-backdrop-filter: blur(5.2500004768px);
+          backdrop-filter: blur(5.2500004768px);
+  color: #fff;
+}
+
+.modal-content {
+  border-radius: 30px;
+  background: radial-gradient(107.32% 141.42% at 0% 0%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: -2.4184262753px -2.4184262753px 120.9213180542px 0px rgba(255, 255, 255, 0.02) inset;
+  -webkit-backdrop-filter: blur(7.5px);
+          backdrop-filter: blur(7.5px);
+  padding: 48px 57px 20px 64px;
+  border: none;
+  height: 60vh;
+  color: #FFF;
+  font-family: Gilroy-Bold;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 36px */
+  display: flex;
+  position: relative;
+  z-index: -101;
+}
+.modal-content .box {
+  border-radius: 43px;
+  background: radial-gradient(107.32% 141.42% at 0% 0%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: -2.5998082161px -2.5998082161px 129.9904174805px 0px rgba(255, 255, 255, 0.02) inset;
+  -webkit-backdrop-filter: blur(7.5px);
+          backdrop-filter: blur(7.5px);
+  display: flex;
+  padding: 11.824px 9.676px 9.676px 11.824px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -20px;
+  right: 0px;
+  z-index: 2000;
+  opacity: 1;
+  order: 1;
+}
+.modal-content .form-control {
+  border-radius: 8px;
+  background-color: #0D0D0D;
+  width: 369px;
+  height: 52px;
+  flex-shrink: 0;
+  border: none;
+}
+.modal-content .form-control::-moz-placeholder {
+  color: #fff;
+}
+.modal-content .form-control::placeholder {
+  color: #fff;
+}
+.modal-content .mybtn3 {
+  border-radius: 55px;
+  background: radial-gradient(107.32% 141.42% at 0% 0%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: -2.4184262753px -2.4184262753px 120.9213180542px 0px rgba(255, 255, 255, 0.02) inset;
+  -webkit-backdrop-filter: blur(7.5px);
+          backdrop-filter: blur(7.5px);
+  border: none;
+  display: flex;
+  width: 170px;
+  height: 48px;
+  padding: 14px 59px;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  text-shadow: 2.75px 2.75px 13.75px 0px rgba(0, 0, 0, 0.25);
+  font-family: Gilroy-Medium;
+  font-size: 16.5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 19.8px */
+  border: 1px solid;
+  border-color: #0CF9EF #0CF9EF #D686FF #D686FF;
+}
+.modal-content .mytext {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Gilroy-Medium;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  text-decoration-line: underline;
+  text-align: center;
+  font-family: Gilroy-Medium;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 14.4px */
+}
+
+.offcanvas {
+  background-color: #000;
+}
+.offcanvas .dropdown-menu ul {
+  background-color: #000;
+}
+.offcanvas .dropdown-menu ul li a {
+  background-color: #000;
+  color: #fff;
+}
+.offcanvas .dropdown-menu ul li a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+@media (max-width: 1072px) {
+  .header {
+    display: none;
+  }
+  .header2 {
+    display: block;
+    color: #FFF;
+    font-size: 36px;
+  }
+}
+@media (min-width: 1072) {
+  .header {
+    display: block;
+  }
+  .header2 {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
